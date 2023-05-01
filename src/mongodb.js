@@ -1,6 +1,6 @@
 const mongoose=require("mongoose")
 
-mongoose.connect("mongodb://localhost:27017/PasswordReset")
+mongoose.connect("mongodb+srv://abi:abi@cluster0.th5vzm3.mongodb.net/?retryWrites=true&w=majority")
 .then(()=>{
     console.log('mongoose connected');
 })
